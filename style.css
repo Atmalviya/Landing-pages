@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80rem;
+    height: 70rem;
+    margin: 2rem auto;
+    padding-left: 95.48px;
+    padding-top: 63.24px;
+}
+
+.circle{
+    height: 102.52pt;
+    width: 102.52pt;
+    background-color: #E14B32;
+    border-radius: 50%;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    width: 250px;
+    left: 100px;    
+    top: 30px;
+
+
+}
+
+.card{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    font-family: 'Proxima Nova Condensed';
+    
+    /* flex: 3; */
+
+}
+
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+ .image{
+     flex: 3;
+     /* margin-top: 50px; */
+     border-right: 1px solid black;
+     margin-top: 60px;
+     
+} 
+
+.image1{
+    border-right: 1px solid black;
+}
+
+.dot1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #3787C8;
+    position: relative;
+    top: 18px;
+    left: 35px;
+}
+.dot2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FAAF41;
+    position: relative;
+    top: 18px;
+    left: 35px;
+}
+.dot3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #E14B32;
+    position: relative;
+    top: 18px;
+    left: 35px;
+}
+.dot4{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #3787C8;
+    position: relative;
+    top: 18px;
+    left: 35px;
+}
+/* 
+.text1{
+    margin-top: 60px;
+} */
